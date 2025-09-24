@@ -24,7 +24,7 @@ base: &base
     - ssl:ro
     - config:rw
   discovery:
-    - esphome
+    - esphome-cn
   schema:
     status_use_ping: bool?
     streamer_mode: bool?
@@ -83,8 +83,8 @@ esphome-beta:
 
 esphome-stable:
   <<: *base
-  directory: esphome
-  name: ESPHome Device Builder
+  directory: esphome-cn
+  name: ESPHome Device Builder For CN
   panel_title: ESPHome Builder
   version: "2025.9.1"  # STABLE
   slug: esphome-cn

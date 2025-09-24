@@ -16,7 +16,7 @@ map:
 - ssl:ro
 - config:rw
 discovery:
-- esphome
+- esphome-cn
 schema:
   status_use_ping: bool?
   streamer_mode: bool?
@@ -30,12 +30,10 @@ backup_exclude:
 - '*/*/'
 init: false
 startup: services
-name: ESPHome Device Builder
+name: ESPHome Device Builder For CN
 panel_title: ESPHome Builder
 version: 2025.9.1
 slug: esphome-cn
 description: Build your own smart home devices using ESPHome, no programming experience
   required
 image: ghcr.io/esphome/esphome-hassio
-environment: {"IDF_GITHUB_ASSETS": "dl.espressif.cn/github_assets"},
-
