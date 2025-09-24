@@ -87,7 +87,7 @@ esphome-stable:
   name: ESPHome Device Builder
   panel_title: ESPHome Builder
   version: "2025.9.1"  # STABLE
-  slug: esphome
+  slug: esphome-cn
   description: "Build your own smart home devices using ESPHome, no programming experience required"
   image: ghcr.io/esphome/esphome-hassio
 
