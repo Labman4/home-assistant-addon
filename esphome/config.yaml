@@ -37,3 +37,5 @@ slug: esphome
 description: Build your own smart home devices using ESPHome, no programming experience
   required
 image: ghcr.io/esphome/esphome-hassio
+environment: {"IDF_GITHUB_ASSETS": "dl.espressif.cn/github_assets"},
+
